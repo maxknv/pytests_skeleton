@@ -5,9 +5,10 @@ Skeleton for pytests
 `pip install pytest`
 
 ### run
+`cd ./tests`
 * all in dir
-`pytest tests/`
+`pytest .`
 * by regex
-`pytest -k "TestIt" tests/`
+`pytest -k "TestIt" .`
 * by mark
-`pytest -m smoketest tests/`
+`pytest -m smoketest .`
